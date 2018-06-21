@@ -1,0 +1,21 @@
+{
+  "metrics": [
+    {
+      "namespace": "abc",
+      "metricName": "def",
+      "dimensions": [
+        {
+          "name": "instance_id",
+          "value": "demo1"
+        }
+      ]
+    }
+  ],
+  "period": 60,
+  "timerange": "-1.-1.5",
+  "statistics": [
+    "maximum",
+    "minimum",
+    "sum"
+  ]
+}

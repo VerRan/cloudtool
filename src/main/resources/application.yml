@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+huawei:
+  api:
+    ak: 4GKAHMGU7IGWDOYJELEY
+    sk: Oo6b2sF9WZKJ2ZFXStKAHIFVD7skj5v7ueeUKs0m
+    tokenUrl: https://iam.cn-north-1.myhwclouds.com/v3/auth/tokens
+    msgUrl: https://smn.cn-north-1.myhwclouds.com/v2/27dd3f8e74894dcdbd3faed71b6320cc/notifications/sms
+    region: cn-north-1
+    serviceName: smn.cn-north-1.myhwclouds.com
